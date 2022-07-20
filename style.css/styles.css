@@ -197,31 +197,7 @@ h2 {
   margin:0px;
  
 }
-.submenu svg {
-  width: 40px;
-  height: auto;
-  margin: 0 2rem;
-  cursor: pointer;
-  overflow: visible;
-  margin-left: 45px;
-  
-}
-.submenu svg polygon, 
-.submenu svg path {
-  transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
-  fill: #337AB7;
-}
-.submenu svg:hover polygon, 
-.submenu svg:hover path {
-  transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
-  fill: #000;
-}
-.submenu svg:hover .submenu-6-pl {
-  animation: submenu-6-anim 1s cubic-bezier(0.2, 1, 0.3, 1) infinite;
-}
-.submenu svg:hover .submenu-6-pl-fixed {
-  animation:submenu-6-fixed-anim 1s cubic-bezier(0.2, 1, 0.3, 1) infinite;
-}
+
 
 @keyframes submenu-anim {
   0% {
